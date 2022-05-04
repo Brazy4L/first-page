@@ -27,7 +27,7 @@ a {
 }
 
 .one img {
-    width: 300px;
+    width: 450px;
 }
 
 .two img {
@@ -36,11 +36,12 @@ a {
 
 .header {
     display: flex;
+    padding-top: 20px;
 }
 
 .main {
     flex: 1;
-    margin-left: 80px;
+    margin-left: 350px;
 }
 
 .main a {
@@ -48,21 +49,56 @@ a {
 }
 
 .right {
-    margin-right: 80px;
+    margin-right: 334px;
 }
 
 .right a {
     color: #e5e7eb;
 }
 
-.content {
-
+.header, .one {
+    background-color: #1f2937;
 }
 
 .one {
     display: flex;
 }
 
-.header, .one {
-    background-color: #1f2937;
+.one-img {
+    margin-left: auto;
+    padding-top: 100px;
+    padding-right: 350px;
+    padding-bottom: 50px;
+}
+
+.container-one {
+    display: flex;
+    flex-direction: column;
+    padding-left: 350px;
+    padding-top: 100px;
+}
+
+.one-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    width: 440px;
+}
+
+.one-desc {
+    font-size: 18px;
+    color: #a0a8b6;
+    width: 440px;
+    margin-top: 11px;
+}
+
+button {
+    background-color: #3882f6;
+    height: 25px;
+    width: 150px;
+    border-radius: 5px;
+    border:0;
+    cursor:pointer;
+    margin-top: 15px;
+    color: #f9faf8;
 }
