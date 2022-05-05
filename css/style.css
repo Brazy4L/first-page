@@ -19,6 +19,10 @@ ul {
     display: flex;
     margin-top: auto;
     justify-content: center;
+    padding: 20px 0;
+    align-items: center;
+    background-color: #1f2937;
+    color: #a0a8b6;
 }
 
 a {
@@ -97,10 +101,13 @@ button {
     height: 25px;
     width: 100px;
     border-radius: 5px;
-    border:0;
-    cursor:pointer;
-    margin-top: 15px;
+    cursor: pointer;
     color: #f9faf8;
+}
+
+.one-button button {
+    border: 0;
+    margin-top: 15px;
 }
 
 .two {
@@ -149,4 +156,41 @@ button {
 .gabe {
     margin-left: 360px;
     font-weight: 500;
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px;
+}
+
+.container-four {
+    display: flex;
+    width: 700px;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 15px;
+}
+
+.four-head {
+    font-size: 20px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.four-sub {
+    font-size: 14px;
+    color: #cecece;
+}
+
+.four-right button {
+    border-color: white;
+    border-style: solid;
+}
+
+.four-left {
+    padding-right: 120px;
 }
