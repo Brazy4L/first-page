@@ -32,28 +32,33 @@ a {
 
 .one img {
     width: 450px;
+    height: 300px;
 }
 
 .two img {
     width: 150px;
+    height: 150px;
 }
 
 .header {
     display: flex;
-    padding-top: 20px;
+    padding: 20px 0px;
+    justify-content: center;
+}
+
+.container-header {
+    display: flex;
+    width: 900px;
+    height: 20px;
 }
 
 .main {
     flex: 1;
-    margin-left: 350px;
+    padding-left: 10px;
 }
 
 .main a {
     color: #f9faf8;
-}
-
-.right {
-    margin-right: 334px;
 }
 
 .right a {
@@ -66,34 +71,42 @@ a {
 
 .one {
     display: flex;
-}
-
-.one-img {
-    margin-left: auto;
-    padding-top: 100px;
-    padding-right: 350px;
+    justify-content: center;
+    padding-top: 25px;
     padding-bottom: 50px;
 }
 
 .container-one {
     display: flex;
-    flex-direction: column;
-    padding-left: 350px;
-    padding-top: 100px;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+
+.container-left {
+    display: flex;
+    flex-wrap: wrap;
+    width: 390px;
+    flex: 0 0 0;
+    padding-left: 10px;
 }
 
 .one-text {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
-    width: 440px;
+    width: 390px;
 }
 
 .one-desc {
     font-size: 18px;
     color: #a0a8b6;
-    width: 440px;
+    width: 390px;
     margin-top: 11px;
+}
+
+.one-img {
+    padding-left: 10px;
+    margin-left: auto;
 }
 
 button {
@@ -105,9 +118,13 @@ button {
     color: #f9faf8;
 }
 
+.one-button {
+    width: 390px;
+}
+
 .one-button button {
     border: 0;
-    margin-top: 15px;
+    margin: 15px 0px;
 }
 
 .two {
